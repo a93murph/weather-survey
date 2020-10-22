@@ -7,7 +7,23 @@ body {
   font-weight: bolder;
 }
 #description {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkslateblue;
-    font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: darkslateblue;
+  font-weight: bold;
+}
+#survey-form {
+  text-transform: capitalize;
+}
+#survey-name{
+  margin-top: 3em;
+}
+#survey-email{
+  margin-top: 1em;
+}
+#survey-number{
+  margin-top: 1em;
+  border: 200em;
+}
+#survey-state{
+  margin-top: 1em;
 }
