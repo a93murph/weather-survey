@@ -25,18 +25,21 @@
   <p id="description">
     Participate in this survey to determine the preferred weather of your city!
   </p>
-  <div id="survey-form">
-    <form id="survey-name">
-      <input type="text" placeholder="Name" required />
+    <form id="survey-form" onsubmit="">
+      <input type="text" placeholder="Name" id="survey-name" required />
+      <input
+        type="number"
+        placeholder="Age"
+        id="survey-number"
+        min="1"
+        max="100"
+      />
+      <input type="email" placeholder="Email" id="survey-email" required />
+      <select  placeholder="State" id="survey-state" >
+        <option value="NJ">NJ</option>
+        <option value="SC">SC</option>
+      </select>
+    <button type="submit" id="submit-button">Submit</button>
     </form>
-    <form id="survey-number">
-      <input type="number" placeholder="Age" min="1" max="100" />
-    </form>
-    <form id="survey-email">
-      <input type="email" placeholder="Email" required />
-    </form>
-    <form id="survey-state">
-      <input type="text" placeholder="State" />
-    </form>
-  </div>
+
 </body>
