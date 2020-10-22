@@ -12,18 +12,20 @@ body {
   font-weight: bold;
 }
 #survey-form {
-  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#survey-name{
+#survey-name {
   margin-top: 3em;
 }
-#survey-email{
+#survey-email {
   margin-top: 1em;
 }
-#survey-number{
+#survey-number {
   margin-top: 1em;
-  border: 200em;
+  flex-direction: row;
 }
-#survey-state{
+#survey-state {
   margin-top: 1em;
 }
