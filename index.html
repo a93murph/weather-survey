@@ -25,21 +25,82 @@
   <p id="description">
     Participate in this survey to determine the preferred weather of your city!
   </p>
-    <form id="survey-form" onsubmit="">
+  <form id="survey-form">
+    <div class="input-container">
+      <label id="name-label" for="survey-name">Name</label>
       <input type="text" placeholder="Name" id="survey-name" required />
+    </div>
+    <div class="input-container">
+      <label id="email-label" for="survey-email">Email</label>
+      <input type="email" placeholder="Email" id="survey-email" required />
+    </div>
+    <div class="input-container">
+      <label id="age-label" for="survey-age">Age</label>
       <input
         type="number"
         placeholder="Age"
-        id="survey-number"
+        id="survey-age"
         min="1"
         max="100"
       />
-      <input type="email" placeholder="Email" id="survey-email" required />
-      <select  placeholder="State" id="survey-state" >
+    </div>
+    <div class="input-container">
+      <label id="state-label" for="survey-state">State</label>
+      <select placeholder="State" id="survey-state">
         <option value="NJ">NJ</option>
         <option value="SC">SC</option>
       </select>
-    <button type="submit" id="submit-button">Submit</button>
-    </form>
+    </div>
+    <div class="input-container" id="gender-container">
+      <label id="radio-label" for="survey-radio">Gender</label>
 
+      <div>
+        <input type="radio" id="gender-female" value="female" name="gender" />
+        <label for="gender-female">Female</label>
+      </div>
+
+      <div>
+        <input type="radio" id="gender-male" value="male" name="gender" />
+        <label for="gender-male">Male</label>
+      </div>
+
+      <div>
+        <input type="radio" id="gender-other" value="other" name="gender" />
+        <label for="gender-other">Other</label>
+      </div>
+
+      <div>
+        <input type="radio" id="gender-none" value="none" name="gender" />
+        <label for="gender-none">Prefer Not to Say</label>
+      </div>
+    </div>  
+      <div class="input-container">
+        <label id="weather-question"
+          >Select all preferred atmospheric preferences:</label
+        >
+        <div>
+          <input type="checkbox" id="weather-sunny" value="sunny" />
+          <label for="weather-sunny">Sunny</label>
+          <input type="checkbox" id="weather-cloudy" value="cloudy" />
+          <label for="weather-cloudy">Cloudy</label>
+        </div>
+        <div>
+          <input type="checkbox" id="weather-rainy" value="rainy" />
+          <label for="weather-rainy">Rainy</label>
+          <input type="checkbox" id="weather-chilly" value="chilly" />
+          <label for="weather-chilly">Chilly</label>
+        </div>
+        <div>
+          <input type="checkbox" id="weather-hot" value="hot" />
+          <label for="weather-hot">Hot</label>
+          <input type="checkbox" id="weather-snowy" value="snowy" />
+          <label for="weather-snowy">Snowy</label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <textarea placeholder="Additional Preferences" id="text-area"></textarea>
+    </div>
+    <button type="submit" id="submit-button">Submit</button>
+  </form>
 </body>
