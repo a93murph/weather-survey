@@ -4,8 +4,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  width: auto;
+  background-size: 100% 100%;
 }
 .box{
   padding-top: 10px;
@@ -39,14 +38,6 @@ body {
 }
 #survey-name {
   margin-top: 1.5em;
-}
-#survey-email {
-}
-#survey-age {
-}
-#survey-state {
-}
-#submit-button {
 }
 #text-area{
   width: 20em;
