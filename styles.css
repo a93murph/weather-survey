@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: url(imge.jpg) no-repeat center center fixed; 
+  background: url(imge.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,10 +8,10 @@ body {
   max-width: 100%;
   height: auto;
 }
-.box{
+.box {
   padding-top: 10px;
   padding-bottom: 10px;
-  background: rgb(47, 79, 79, .6);
+  background: rgb(47, 79, 79, 0.6);
   position: absolute;
   bottom: 0%;
   top: 0%;
@@ -20,13 +20,20 @@ body {
   max-width: 100%;
   height: auto;
 }
+@media (max-width: 100px) {
+  .box{
+    right: 20%;
+    left: 20%;
+    font-size: 20px
+  }
+}
 #title {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: antiquewhite;
   font-weight: bolder;
 }
 #description {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: antiquewhite;
   font-weight: bold;
 }
@@ -36,14 +43,14 @@ body {
   align-items: center;
   color: antiquewhite;
 }
-.input-container{
+.input-container {
   margin-bottom: 1em;
 }
 #survey-name {
   margin-top: 1.5em;
 }
-#text-area{
+#text-area {
   width: 20em;
   height: 50px;
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
 }
