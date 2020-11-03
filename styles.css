@@ -20,15 +20,13 @@ body {
   max-width: 100%;
   height: auto;
 }
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3){
-  .box{
-    right: 20%;
-    left: 20%;
-    font-size: 20px
-  }
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none;}
 }
 #title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
