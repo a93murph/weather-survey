@@ -27,11 +27,34 @@ body {
 }
 @media screen and (max-width: 1060px) {
   #primary { width:67%; }
-  #secondary { width:30%; margin-left:3%;}  
+  #secondary { width:30%; margin-left:3%;}
+  .box{  padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(47, 79, 79, 0.6);
+    position: fixed;
+    bottom: 0%;
+    top: 0%;
+    right: 40%;
+    left: 40%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }  
 }
 @media screen and (max-width: 768px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none;}
+  .box{  padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(47, 79, 79, 0.6);
+    position: fixed;
+    bottom: 0%;
+    top: 0%;
+    right: 40%;
+    left: 40%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 #title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
