@@ -8,7 +8,7 @@ body {
   background-size: 100% 100%;
   background-position: 50% 50%;
   width: 100%;
-  height: auto;
+  height: 100%;
 
 }
 .box {
@@ -23,14 +23,14 @@ body {
   max-width: 100%;
   height: auto;
 }
-@media screen and (max-width: 1060px) {
+/* @media screen and (max-width: 1060px) {
   #primary { width:67%; }
   #secondary { width:30%; margin-left:3%;}  
 }
 @media screen and (max-width: 768px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none;}
-}
+} */
 #title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: antiquewhite;
