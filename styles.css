@@ -45,12 +45,15 @@ body {
     position: fixed;
     bottom: 0%;
     top: 0%;
-    right: 45%;
-    left: 45%;
+    right: 20%;
+    left: 20%;
     max-width: 100%;
     width: auto;
     height: auto;
     }
+  body {
+    font-size: 1em;
+  }  
 }
 #title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
