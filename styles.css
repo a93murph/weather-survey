@@ -10,7 +10,6 @@ body {
   width: auto;
   max-width: 100%;
   height: 100%;
-  position: fixed;
 }
 .box {
   padding-top: 10px;
@@ -33,13 +32,13 @@ body {
     background: rgb(47, 79, 79, 0.6);
     bottom: 0%;
     top: 0%;
-    right: 20%;
-    left: 20%;
+    right: 15%;
+    left: 15%;
     max-width: 100%;
     width: auto;
     height: auto;
     position: fixed;
-    overflow: auto;
+    /* overflow: auto; */
   }
 }
 #title {
@@ -69,6 +68,10 @@ body {
 }
 #email-label{
   font-style: italic;
+}
+.age-flex{
+  display: flex;
+  align-items: flex-start;
 }
 #age-label{
   font-style: italic;
