@@ -59,33 +59,50 @@ body {
 .input-container {
   margin-bottom: 1em;
 }
-#name-label{
+#name-label {
   font-style: italic;
 }
 #survey-name {
   margin-top: 1.5em;
 }
-#email-label{
+#email-label {
   font-style: italic;
 }
-.age-flex{
-  display: flex;
-  align-items: flex-start;
-}
-#age-label{
+#age-label {
   font-style: italic;
 }
-#state-label{
+#state-label {
   font-style: italic;
 }
-#radio-label{
+#radio-label {
   font-style: italic;
 }
-#weather-question{
+#weather-question {
   font-style: italic;
 }
 #text-area {
   width: 20em;
   height: 50px;
   margin-bottom: 0.3em;
+}
+.age-container {
+  display: flex;
+  flex-direction: column;
+}
+#gender-female{
+  margin-left: -15%;
+}
+#gender-male{
+  margin-left: -20%;
+}
+#gender-other{
+  margin-left: -18.5%;
+}
+#gender-none{
+  margin-left: 7.5%;
+}
+
+#checkbox-container {
+  display: flex;
+  flex-direction: column;
 }
